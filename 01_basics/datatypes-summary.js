@@ -69,3 +69,33 @@ const value2 = true;
 console.log(typeof(value));
 console.log(typeof(value1));
 console.log(typeof(value2));
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+ Memory Regarding
+1. Stack (Primitive), 
+2. Heap (Non-primitive) 
+*/
+let myGithub = 'github.com/nazmul-main'
+
+let anotherName = myGithub
+anotherName = 'facebook.com/nazmulhossen539'
+
+console.log(myGithub);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "test@gmail.com",
+    upi: "test@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = 'nazmulhossen.main@gmail.com'
+userTwo.upi = 'nazmul@ybl'
+
+console.log(userOne.email, userOne.upi);
+console.log(userTwo.email, userTwo.upi);
