@@ -29,8 +29,8 @@ const anothertId = Symbol('123')
 
 const binumber = 345234626453455343462n //bigInt
 
-//console.log(id, anothertId);
-//console.log( id === anothertId); // false 
+console.log(id, anothertId);
+console.log( id === anothertId); // false 
 
 
 
@@ -52,7 +52,7 @@ let myObj = {
 
 //Function
 const myFunction = function() {
-    // console.log('Hello World');
+    console.log('Hello World');
 }
 
 
